@@ -1,0 +1,341 @@
+/* font-family: 'Balsamiq Sans', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Capriola', sans-serif;
+
+/* #d0ab6d
+golden
+#8aa936
+light green
+#476b31
+dark green
+#221f21
+black
+
+*/
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.header {
+  height: 173px;
+}
+
+.content {
+  width: 94%;
+  margin: 4em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.menu {
+  height: 100px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+  font-family: 'Bebas Neue', cursive;
+  z-index: 3;
+}
+
+nav ul {
+  line-height: 60px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  transition: 0.5s;
+}
+
+/* nav.black ul {
+  background: #000;
+} */
+nav ul li {
+  display: inline-block;
+  padding: 16px 30px;
+  text-align: right;
+  border-radius: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #d0ab6d;
+  font-size: 1.4rem;
+}
+
+nav ul li a:hover {
+  font-size: 1.6rem;
+  color: black;
+  transition: 1s;
+  text-decoration: none;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: #000;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+@media(max-width: 786px) {
+  .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: #000;
+    height: 241px;
+  }
+
+  /* nav.black ul {
+    background: #000;
+  } */
+  .showing {
+    max-height: 34em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+    border-radius: 50px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+
+.school-logo {
+  width: 12%;
+  display: inline-block;
+  z-index: 2;
+  position: relative;
+  left: 45%;;
+  padding-top: 1%;
+}
+
+/* .school-logo-black {
+  width: 12%;
+  display: block;
+  z-index: 2;
+  position: relative;
+  left: 45%;
+  padding-top: 1%;
+  transition: 1s;
+} */
+
+.school-name {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  right: 21%;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.school-name:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.green {
+  display: inline-block;
+  background: #476b31;
+  width: 100%;
+  position: relative;
+  top: -167px;
+  z-index: 1;
+  text-align: right;
+  transition: 1s;
+
+}
+.green-black{
+  display: inline-block;
+    background: #476b31;
+    width: 100%;
+    position: relative;
+    top: -240px;
+    z-index: 1;
+    text-align: right;
+    transition: 1s;
+}
+
+.gal {
+  background-color: #e6e7ee;
+}
+
+.school-carousel-row {
+  height: 685px;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  width: 100%;
+  margin-top: 3%;
+}
+
+.hundred {
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  color:
+    #d0ab6d;
+}
+
+.dammam {
+  background-color: #f0ebd9;
+}
+
+.riffa {
+  background-color: #476b31;
+  border-radius: 12px;
+  margin-top: 12px;
+  height: 70px;
+  width: 100%;
+  text-align: center;
+}
+
+h1.riffa {
+  padding: 2%;
+  height: 2%;
+  width: 94%;
+  position: relative;
+  left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    z-index: 1;
+}
+
+.jeddah {
+  font-family: 'Capriola', sans-serif;
+  border: 3px solid #f0ebd9;
+
+border-radius: 67px;
+background: #ffffff;
+box-shadow:  22px 22px 73px #e0e0e0,
+             -22px -22px 73px #ffffff;
+  margin-left: 50%;
+  margin-top: 7%;
+  line-height: 40px;
+}
+
+.jeddah h3 {
+  left: 40%;
+}
+
+.rakah {
+  font-family: 'Capriola', sans-serif;
+  border-radius: 50px;
+
+  border-radius: 67px;
+  background: #ffffff;
+  box-shadow:  22px 22px 73px #e0e0e0,
+               -22px -22px 73px #ffffff;
+  margin-left: 0%;
+  margin-top: -37%;
+}
+#about {
+display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 1% 3%;
+    text-align: center;
+  }
+.null-pic{
+width: 100%
+}
+.card{
+  background-color:#ffffff00;
+  border: none;
+}
+/* .carousel{
+  padding: 0;
+} */
+.hundred{
+  padding: 0;
+}
+.card-title{
+      font-size: 2.5rem;
+      color: #221f21;
+}
+.card-text{
+  font-size: 1.86rem;
+  padding: 5% 2%;
+  line-height: 40px
+  color:#221f21;
+  border-radius: 65px;
+  border: 1px solid;
+}
+.about-col{
+  border-radius: 50px;
+
+  border-radius: 67px;
+  background: #ffffff;
+  box-shadow:  22px 22px 73px #e0e0e0,
+               -22px -22px 73px #ffffff;
+}
+#contact{
+  display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: 0;
+      margin-left: 0;
+      padding: 1% 3%;
+      text-align: center;
+}
+#gmap_canvas{
+  height: 100%;
+  width: 100%;
+  border-radius: 65px;
+}
+.gmap_canvas{
+  overflow: hidden;
+  background: none!important;
+  width: 100%;
+  height: 100%;
+}
+.mapouter{
+  position: relative;
+  text-align: center;
+  height: 300px;
+}
+.about-con{
+
+  border-radius: 67px;
+  background: #ffffff;
+  box-shadow:  22px 22px 73px #e0e0e0,
+               -22px -22px 73px #ffffff;
+             }
+.icon-box2{
+  font-size: 5rem;
+    padding: 2% 0%;
+    margin: 0;
+    text-align: center
+}
+.icon-box2 a{
+  padding: 1% 3%;
+  border-radius: 50%;
+background: #f0ebd9;
+box-shadow:  5px 5px 3px #d8d4c3,
+             -5px -5px 3px #ffffef;
+}
